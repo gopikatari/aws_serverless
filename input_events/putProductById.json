@@ -1,0 +1,67 @@
+{
+  "resource": "/product/{id}",
+  "path": "/product/123",
+  "httpMethod": "PUT",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Content-Type": "application/json",
+    "Host": "3rlj52wk35.execute-api.us-east-1.amazonaws.com",
+    "Postman-Token": "08504e40-1658-45d3-8b84-5833e91d5b7f",
+    "User-Agent": "PostmanRuntime/7.32.3",
+    "X-Amzn-Trace-Id": "Root=1-64b4ecdf-2c154d9b6ae127d546d4a79e",
+    "X-Forwarded-For": "49.206.130.80",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "Accept": ["*/*"],
+    "Accept-Encoding": ["gzip, deflate, br"],
+    "Content-Type": ["application/json"],
+    "Host": ["3rlj52wk35.execute-api.us-east-1.amazonaws.com"],
+    "Postman-Token": ["08504e40-1658-45d3-8b84-5833e91d5b7f"],
+    "User-Agent": ["PostmanRuntime/7.32.3"],
+    "X-Amzn-Trace-Id": ["Root=1-64b4ecdf-2c154d9b6ae127d546d4a79e"],
+    "X-Forwarded-For": ["49.206.130.80"],
+    "X-Forwarded-Port": ["443"],
+    "X-Forwarded-Proto": ["https"]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": {
+    "id": "123"
+  },
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "kkn9n3",
+    "resourcePath": "/product/{id}",
+    "httpMethod": "PUT",
+    "extendedRequestId": "IMny_EZUIAMFXYQ=",
+    "requestTime": "17/Jul/2023:07:25:19 +0000",
+    "path": "/dev/product/123",
+    "accountId": "875321209549",
+    "protocol": "HTTP/1.1",
+    "stage": "dev",
+    "domainPrefix": "3rlj52wk35",
+    "requestTimeEpoch": 1689578719605,
+    "requestId": "cbc3e441-40f1-48e5-8086-ecf12fcd0dac",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "49.206.130.80",
+      "principalOrgId": null,
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "PostmanRuntime/7.32.3",
+      "user": null
+    },
+    "domainName": "3rlj52wk35.execute-api.us-east-1.amazonaws.com",
+    "apiId": "3rlj52wk35"
+  },
+  "body": "{\r\n    \"product_id\":\"121\",\r\n    \"name\":\"Test1\",\r\n    \"category\":\"Mobile\"\r\n}",
+  "isBase64Encoded": false
+}

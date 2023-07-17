@@ -1,0 +1,65 @@
+{
+  "resource": "/product/{id}",
+  "path": "/product/123",
+  "httpMethod": "DELETE",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Host": "3rlj52wk35.execute-api.us-east-1.amazonaws.com",
+    "Postman-Token": "0edca995-fa6e-4a17-a6e1-026b138c6549",
+    "User-Agent": "PostmanRuntime/7.32.3",
+    "X-Amzn-Trace-Id": "Root=1-64b4ecc5-1db710a8591de0bd5251ea3e",
+    "X-Forwarded-For": "49.206.130.80",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "Accept": ["*/*"],
+    "Accept-Encoding": ["gzip, deflate, br"],
+    "Host": ["3rlj52wk35.execute-api.us-east-1.amazonaws.com"],
+    "Postman-Token": ["0edca995-fa6e-4a17-a6e1-026b138c6549"],
+    "User-Agent": ["PostmanRuntime/7.32.3"],
+    "X-Amzn-Trace-Id": ["Root=1-64b4ecc5-1db710a8591de0bd5251ea3e"],
+    "X-Forwarded-For": ["49.206.130.80"],
+    "X-Forwarded-Port": ["443"],
+    "X-Forwarded-Proto": ["https"]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": {
+    "id": "123"
+  },
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "kkn9n3",
+    "resourcePath": "/product/{id}",
+    "httpMethod": "DELETE",
+    "extendedRequestId": "IMnu5EuxoAMF49A=",
+    "requestTime": "17/Jul/2023:07:24:53 +0000",
+    "path": "/dev/product/123",
+    "accountId": "875321209549",
+    "protocol": "HTTP/1.1",
+    "stage": "dev",
+    "domainPrefix": "3rlj52wk35",
+    "requestTimeEpoch": 1689578693498,
+    "requestId": "5f48e4f8-69d6-4181-ac58-b35bc45294b6",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "49.206.130.80",
+      "principalOrgId": null,
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "PostmanRuntime/7.32.3",
+      "user": null
+    },
+    "domainName": "3rlj52wk35.execute-api.us-east-1.amazonaws.com",
+    "apiId": "3rlj52wk35"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}

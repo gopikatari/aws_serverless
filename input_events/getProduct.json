@@ -1,0 +1,63 @@
+{
+  "resource": "/product",
+  "path": "/product",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Host": "3rlj52wk35.execute-api.us-east-1.amazonaws.com",
+    "Postman-Token": "65423a2f-e81a-4871-b3b3-44e6c16e73d6",
+    "User-Agent": "PostmanRuntime/7.32.3",
+    "X-Amzn-Trace-Id": "Root=1-64b4ec6b-3bbe8a5a34d953ff23862472",
+    "X-Forwarded-For": "49.206.130.80",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "Accept": ["*/*"],
+    "Accept-Encoding": ["gzip, deflate, br"],
+    "Host": ["3rlj52wk35.execute-api.us-east-1.amazonaws.com"],
+    "Postman-Token": ["65423a2f-e81a-4871-b3b3-44e6c16e73d6"],
+    "User-Agent": ["PostmanRuntime/7.32.3"],
+    "X-Amzn-Trace-Id": ["Root=1-64b4ec6b-3bbe8a5a34d953ff23862472"],
+    "X-Forwarded-For": ["49.206.130.80"],
+    "X-Forwarded-Port": ["443"],
+    "X-Forwarded-Proto": ["https"]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "24bl5y",
+    "resourcePath": "/product",
+    "httpMethod": "GET",
+    "extendedRequestId": "IMng0FmwoAMFh9A=",
+    "requestTime": "17/Jul/2023:07:23:23 +0000",
+    "path": "/dev/product",
+    "accountId": "875321209549",
+    "protocol": "HTTP/1.1",
+    "stage": "dev",
+    "domainPrefix": "3rlj52wk35",
+    "requestTimeEpoch": 1689578603337,
+    "requestId": "229046a2-84f8-46a3-8438-44556affcfb2",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "49.206.130.80",
+      "principalOrgId": null,
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "PostmanRuntime/7.32.3",
+      "user": null
+    },
+    "domainName": "3rlj52wk35.execute-api.us-east-1.amazonaws.com",
+    "apiId": "3rlj52wk35"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
